@@ -17,7 +17,12 @@ export const Navbar = () => {
         </li>
         <li>
           <Link to="/Signin" className="lnk">
-            Signin
+            Sign in
+          </Link>
+        </li>
+        <li>
+          <Link to="/signout" className="lnk">
+            Sign out
           </Link>
         </li>
       </ul>
